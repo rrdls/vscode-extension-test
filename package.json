@@ -3,6 +3,7 @@
   "displayName": "toolbox",
   "description": "",
   "version": "0.0.1",
+  "publisher": "rrdls",
   "engines": {
     "vscode": "^1.89.0"
   },
