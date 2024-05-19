@@ -36,16 +36,12 @@ export function activate(context: vscode.ExtensionContext) {
       // The code you place here will be executed every time your command is executed
       // Display a message box to the user
       vscode.window.showInformationMessage("Renato from toolbox!");
-      // const panel = vscode.window.createWebviewPanel(
-      //   "toolbox",
-      //   "Renato toolbox",
-      //   vscode.ViewColumn.One,
-      //   { enableScripts: true }
-      // );
-
-      // vscode;
-
-      // panel.webview.html = await getWebViewContent();
+      const panel = vscode.window.createWebviewPanel(
+        "toolbox",
+        "Renato toolbox",
+        vscode.ViewColumn.One,
+        { enableScripts: true }
+      );
     }
   );
 

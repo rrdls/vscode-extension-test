@@ -1,9 +1,13 @@
 {
-  "name": "toolbox",
-  "displayName": "toolbox",
+  "name": "vscode-extension-rrdls",
+  "displayName": "vscode-extension-rrdls",
   "description": "",
   "version": "0.0.1",
   "publisher": "rrdls",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrdls/vscode-extension-test.git"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
